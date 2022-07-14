@@ -2,7 +2,7 @@
 
 ### Documentação Oficial do Vagrant: https://www.vagrantup.com/docs/installation
 
-# Instalação do VirtualBox
+## Instalação do VirtualBox
 
 $ sudo apt install virtualbox
 
