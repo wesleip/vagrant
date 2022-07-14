@@ -1,7 +1,7 @@
 #Data de criação: 13.07.2022
 #Versão: 0.01
 #Testado e homologado no Linux POP OS 22.04
-#Arquivo de configuração Vagrantfile para webserver HTTP Apache
+#Arquivo de configuração Vagrantfile para webserver Apache HTTP Server
 
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "centos/7"
   #Link de download da Imagem do  Oficial
   web.vm.box_url = "https://app.vagrantup.com/centos/boxes/7/versions/2004.01/providers/virtualbox.box"
-  #Configuração do Hostname do BOXgit no Vagrant
+  #Configuração do Hostname do BOX no Vagrant
   web.vm.hostname = "webserver"
   #Configuração do Endereçamento Público IPv4 do BOX do Vagrant
   #OBSERVAÇÃO: Utilizar as configurações de acordo com a sua Interface de Rede
