@@ -31,6 +31,6 @@ Vagrant 2.2.6
 mkdir ~/primeiro-projeto-vagrant
 cd ~/primeiro-projeto-vagrant
 
-# Criando a primeira box usando o Ubuntu como exemplo
+# Criando a primeira box usando o CentOS 7 como exemplo
 
-
+Para criar a primeira box utilize o arquivo Vagrantfile
